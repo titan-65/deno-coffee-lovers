@@ -1,4 +1,4 @@
-import type { Coffee, CoffeeController, CoffeeRepository } from "./types.ts";
+import type { Coffee, CoffeeController, CoffeeRepository } from "./index.ts";
 
 interface ControllerDependencies {
     coffeeRepository: CoffeeRepository
